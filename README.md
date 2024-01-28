@@ -13,7 +13,7 @@ int main() { //main function
 	char* b = first_array; // pointer to the first array
 	char* a = empty_array; // pointer to the empty array
 	
-	while (*a++ = *b++); // Here the magic copy happens!
+	while (*a++ = *b++); // Here the magic copy happens! Notice this is not double equal sign, instead it assigns the character from first_array to the empty array (pointers of those arrays).
 
 	printf("First string is:  %s\n", first_array); // print out the string name1
 	printf("Second string is: %s\n", empty_array); // print out the string name2
